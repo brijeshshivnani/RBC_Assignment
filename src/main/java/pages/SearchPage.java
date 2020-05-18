@@ -103,7 +103,7 @@ public class SearchPage extends TestBase {
 			System.out.println("currPrice --" + currPrice);
 			System.out.println("oldPrice --" + oldPrice);
 			System.out.println("savings --" + savings);
-			System.out.println("value of i --" + Double.sum(currPrice, savings));
+			System.out.println("sum --" + Double.sum(currPrice, savings));
 			if(Double.sum(currPrice, savings)!=oldPrice) {
 				return false;
 			}

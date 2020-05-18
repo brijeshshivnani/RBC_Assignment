@@ -52,7 +52,6 @@ public class SearchTest extends TestBase {
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();
-		
 	}
 
 }

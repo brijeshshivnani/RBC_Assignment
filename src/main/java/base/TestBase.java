@@ -15,13 +15,13 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 
 public class TestBase {
-   public static WebDriver driver;
+    public static WebDriver driver;
 	public static Properties CONFIG =null;
 	public static Properties OR =null;
 	public static FileInputStream fs=null;
 
    public  TestBase(){
-	   CONFIG= new Properties();
+	    CONFIG= new Properties();
 		OR = new Properties();
 		try{
 			FileInputStream fs = new FileInputStream("src//main//java//config/config.properties");
@@ -34,7 +34,6 @@ public class TestBase {
    }
    
    public static void initialization() throws InterruptedException {
-	   if(driver==null){
 			
 			System.out.println(CONFIG.getProperty("browser"));
 			if(CONFIG.getProperty("browser").equals("FF")) {
@@ -56,8 +55,7 @@ public class TestBase {
 			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			driver.get(CONFIG.getProperty("baseUrl"));
-			Thread.sleep(5000);
-		}
+			Thread.sleep(3000);
    }
 
 	

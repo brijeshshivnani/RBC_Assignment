@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon May 18 15:50:23 EDT 2020</td>
+<td>Started on:</td><td>Mon May 18 17:46:02 EDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>28 seconds (28401 ms)</td>
+<tr><td>Total time:</td><td>59 seconds (59784 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -81,7 +81,7 @@ function toggleAllBoxes() {
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertTrue(Assert.java:41)
 	at org.testng.Assert.assertTrue(Assert.java:51)
-	at tests.SearchTest.verifyFilterPromotion(SearchTest.java:40)
+	at tests.SearchTest.verifyFilterPromotion(SearchTest.java:45)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -107,13 +107,13 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1885922916", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1885922916'><pre>java.lang.AssertionError: expected [true] but found [false]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1449772539", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1449772539'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertTrue(Assert.java:41)
 	at org.testng.Assert.assertTrue(Assert.java:51)
-	at tests.SearchTest.verifyFilterPromotion(SearchTest.java:40)
+	at tests.SearchTest.verifyFilterPromotion(SearchTest.java:45)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -140,7 +140,30 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>17</td>
+<td>4</td>
+<td>tests.SearchTest@4b9e13df</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.SearchTest.productSearch()'><b>productSearch</b><br>Test class: tests.SearchTest</td>
+<td></td>
+<td>4</td>
+<td>tests.SearchTest@4b9e13df</td></tr>
+<tr>
+<td title='tests.SearchTest.verifyCart()'><b>verifyCart</b><br>Test class: tests.SearchTest</td>
+<td></td>
+<td>12</td>
+<td>tests.SearchTest@4b9e13df</td></tr>
+<tr>
+<td title='tests.SearchTest.verifyLocation()'><b>verifyLocation</b><br>Test class: tests.SearchTest</td>
+<td></td>
+<td>9</td>
 <td>tests.SearchTest@4b9e13df</td></tr>
 </table><p>
 </body>

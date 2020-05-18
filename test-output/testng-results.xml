@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="3" total="4" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28401" started-at="2020-05-18T19:50:23Z" finished-at="2020-05-18T19:50:51Z">
+  <suite name="Default suite" duration-ms="59784" started-at="2020-05-18T21:46:02Z" finished-at="2020-05-18T21:47:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28401" started-at="2020-05-18T19:50:23Z" finished-at="2020-05-18T19:50:51Z">
+    <test name="Default test" duration-ms="59784" started-at="2020-05-18T21:46:02Z" finished-at="2020-05-18T21:47:02Z">
       <class name="tests.SearchTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.SearchTest@4b9e13df]" name="setUp" is-config="true" duration-ms="11069" started-at="2020-05-18T15:50:23Z" finished-at="2020-05-18T15:50:34Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.SearchTest@4b9e13df]" name="setUp" is-config="true" duration-ms="7930" started-at="2020-05-18T17:46:02Z" finished-at="2020-05-18T17:46:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyFilterPromotion()[pri:3, instance:tests.SearchTest@4b9e13df]" name="verifyFilterPromotion" duration-ms="17086" started-at="2020-05-18T15:50:34Z" finished-at="2020-05-18T15:50:51Z">
+        <test-method status="PASS" signature="productSearch()[pri:1, instance:tests.SearchTest@4b9e13df]" name="productSearch" duration-ms="4302" started-at="2020-05-18T17:46:10Z" finished-at="2020-05-18T17:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchTest@4b9e13df]" name="tearDown" is-config="true" duration-ms="294" started-at="2020-05-18T17:46:14Z" finished-at="2020-05-18T17:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.SearchTest@4b9e13df]" name="setUp" is-config="true" duration-ms="6235" started-at="2020-05-18T17:46:15Z" finished-at="2020-05-18T17:46:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCart()[pri:2, instance:tests.SearchTest@4b9e13df]" name="verifyCart" duration-ms="12472" started-at="2020-05-18T17:46:21Z" finished-at="2020-05-18T17:46:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchTest@4b9e13df]" name="tearDown" is-config="true" duration-ms="275" started-at="2020-05-18T17:46:33Z" finished-at="2020-05-18T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.SearchTest@4b9e13df]" name="setUp" is-config="true" duration-ms="6253" started-at="2020-05-18T17:46:34Z" finished-at="2020-05-18T17:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyFilterPromotion()[pri:3, instance:tests.SearchTest@4b9e13df]" name="verifyFilterPromotion" duration-ms="4539" started-at="2020-05-18T17:46:40Z" finished-at="2020-05-18T17:46:44Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -22,7 +46,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertTrue(Assert.java:41)
 	at org.testng.Assert.assertTrue(Assert.java:51)
-	at tests.SearchTest.verifyFilterPromotion(SearchTest.java:40)
+	at tests.SearchTest.verifyFilterPromotion(SearchTest.java:45)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -54,7 +78,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFilterPromotion -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchTest@4b9e13df]" name="tearDown" is-config="true" duration-ms="219" started-at="2020-05-18T15:50:51Z" finished-at="2020-05-18T15:50:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchTest@4b9e13df]" name="tearDown" is-config="true" duration-ms="304" started-at="2020-05-18T17:46:44Z" finished-at="2020-05-18T17:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.SearchTest@4b9e13df]" name="setUp" is-config="true" duration-ms="7596" started-at="2020-05-18T17:46:45Z" finished-at="2020-05-18T17:46:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLocation()[pri:4, instance:tests.SearchTest@4b9e13df]" name="verifyLocation" duration-ms="9291" started-at="2020-05-18T17:46:52Z" finished-at="2020-05-18T17:47:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLocation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchTest@4b9e13df]" name="tearDown" is-config="true" duration-ms="258" started-at="2020-05-18T17:47:02Z" finished-at="2020-05-18T17:47:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
