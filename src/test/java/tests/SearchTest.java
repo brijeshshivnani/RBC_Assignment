@@ -21,13 +21,13 @@ public class SearchTest extends TestBase {
 		searchPage = new SearchPage();
 	}
 
-	@Test(priority=1,enabled=false)
+	@Test(priority=1,enabled=true)
 	   public void productSearch() throws InterruptedException{
 		searchPage.searchProduct();
 		Assert.assertTrue(searchPage.verifySearchIsSorted());;
 	   }
 	
-	@Test(priority=2,enabled=false)
+	@Test(priority=2,enabled=true)
 	public void verifyCart() throws Exception {
 		searchPage.searchProduct();
 		Assert.assertTrue(searchPage.verifyItemInCart());
@@ -40,7 +40,7 @@ public class SearchTest extends TestBase {
 		Assert.assertTrue(searchPage.verifyPriceReductionMatch());
 	}
 	
-	@Test(priority=4,enabled=false)
+	@Test(priority=4,enabled=true)
 	public void verifyLocation() throws Exception {
 //		login is not working on LoBlaws site through automation
 //		loginLoblaws(CONFIG.getProperty("username"),CONFIG.getProperty("password"));
